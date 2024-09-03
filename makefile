@@ -6,3 +6,6 @@ down:
 
 cli:
 	docker compose exec -it mongo mongosh
+
+sh:
+	docker compose exec -it mongo bash
